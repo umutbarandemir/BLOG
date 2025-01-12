@@ -217,6 +217,16 @@ header{
     font-size: 1.4rem;
     padding: 0.3rem 0.6rem;
 }
+
+/* blog hover */
+
+.blog-img img{
+    transition:  all 0.5s ease;
+}
+.blog-item:hover img{
+    transform: scale(1.1);
+}
+
 .blog-text{
     margin: 2.2rem 0;
     padding: 0 1rem;
