@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create a Blog Post</title>
+    <title>Document</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -90,21 +90,24 @@
             </h1>
             
                 <div class="containerFORM" style="border-radius: 20px; backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.2); ">
-                    <h1>Create a Blog Post</h1>
-                    <form action="/submit-blog" method="post" enctype="multipart/form-data" style="border-radius: 20px; backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.2); ">
-                        <label for="title">Blog Title</label>
-                        <input type="text" id="title" name="title" placeholder="Enter your blog title" required>
+                    <h1>CONTACT ME</h1>
+                    <form action="https://api.web3forms.com/submit" method="POST" style="border-radius: 20px; backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.2); ">
+                            
+                            <!-- Replace with your Access Key -->
+                            <input type="hidden" name="access_key" value="db118db4-c9dc-4f31-87ae-229dd3cdf625">
+                            
+                        <label for="username">Your Name</label>
+                        <input type="text" id="username" name="username" placeholder="Enter Your Name Here ..." required>
 
-                        <label for="content">Blog Content</label>
-                        <textarea id="content" name="content" placeholder="Write your blog content here" required></textarea>
+                        <label for="usermail">Your Email</label>
+                        <input type="email" id="usermail" name="usermail" placeholder="Enter Your Name Here ..." required>
 
-                        <label for="image">Upload Image</label>
-                        <input type="file" id="image" name="image" accept="image/*" required>
+                        <label for="content">Your Message</label>
+                        <textarea id="content" name="content" placeholder="Enter Your Email Here ..." required></textarea>
 
-                        <button type="submit">Submit Blog</button>
+                        <button type="submit">Send Me Mail</button>
                     </form>
                 </div>
-
           </div>
         </div>
       </header>
